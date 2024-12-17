@@ -1,0 +1,42 @@
+# Ignorar dependências gerenciadas pelo Composer
+/vendor/
+composer.lock
+
+# Ignorar arquivos de configuração do ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar cache e logs
+*.log
+/cache/
+*.cache
+
+# Ignorar diretórios de IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Ignorar arquivos de teste
+phpunit.xml
+phpunit.xml.dist
+/build/
+/tests/
+
+# Ignorar arquivos de cobertura de código
+/coverage/
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignorar configurações específicas do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar arquivos do servidor local (Laravel Valet, por exemplo)
+.valet/

@@ -1,0 +1,16 @@
+{
+    "name": "octuspi/querybuilder",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Octuspi\\Querybuilder\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "octuspi",
+            "email": "octuspi@gmail.com"
+        }
+    ],
+    "require": {}
+}
